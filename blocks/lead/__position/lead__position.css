@@ -1,0 +1,28 @@
+.lead__position {
+  align-items: start;
+  justify-items: start;
+  min-width: 984px;
+  min-height: 22px;
+  margin-top: 8px;
+  text-align: left;
+}
+@media screen and (max-width:1024px) {
+  .lead__position {
+    min-width: 928px;
+    min-height: 14px;
+  }
+}
+@media screen and (max-width:768px) {
+  .lead__position {
+    min-width: 720px;
+    min-height: 14px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width:320px) {
+  .lead__position {
+    min-width:320px;
+    min-height: 14px;
+    margin-top: 0;
+  }
+}

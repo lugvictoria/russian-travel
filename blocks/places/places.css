@@ -1,0 +1,26 @@
+.places {
+  max-width: 984px;
+  min-height: 3392px;
+  margin: 92px auto 12px auto;
+} 
+@media screen and (max-width:1024px) {
+  .places {
+    max-width:928px;
+    min-height: 3292px;
+  }
+}
+@media screen and (max-width:768px) {
+  .places  {
+    max-width: 720px;
+    min-height: 2808px;
+    margin: 88px auto 17px auto;
+  }
+}
+@media screen and (max-width:320px) {
+  .places {
+    max-width: 320px;
+ /*   grid-template-columns: repeat(1, auto);
+    grid-template-rows: minmax(min-content, max-content) repeat(5, auto);*/
+    margin: 64px auto 16px auto;
+  }
+}

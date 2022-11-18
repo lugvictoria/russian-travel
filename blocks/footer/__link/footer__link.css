@@ -1,0 +1,23 @@
+.footer__link {
+  margin:0;
+  padding:0;
+  min-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  transition: opacity .2s linear;
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+@media screen and (max-width:320px) {
+  .footer__link {
+    display: grid;
+    max-width: 186px;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(5, auto);
+    margin-bottom:32px;
+  }
+}

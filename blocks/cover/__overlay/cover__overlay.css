@@ -1,0 +1,38 @@
+.cover__overlay {
+  max-width:1184px;
+  min-height: 740px;
+  background-size: cover;
+  background: #2a2c2f;
+  position: relative;
+}
+.cover__overlay::before {
+  content: "";
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background-color: #2a2c2f;
+  background-size: cover;
+  opacity: .3;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+.cover__overlay:hover::before {
+  opacity: .8;
+}
+@media screen and (max-width:1024px) {
+  .cover__overlay:hover::before {
+    opacity: .8;
+  }
+}
+@media screen and (max-width:768px) {
+  .cover__overlay:hover::before {
+    opacity: .8;
+  }
+}
+@media screen and (max-width:320px) {
+  .cover__overlay:hover::before {
+    opacity: .8;
+  }
+}

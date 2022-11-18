@@ -1,0 +1,31 @@
+.intro {
+  display: grid;
+  max-width:690px;
+  min-height: 429px;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(6, auto);
+  margin: 92px auto 92px 148px;
+  padding: 0;
+} 
+@media screen and (max-width:1024px) {
+  .intro  {
+    max-width: 690px;
+    min-height: 429px;
+    margin-left: 48px;
+  }
+}
+@media screen and (max-width:768px) {
+  .intro  {
+    max-width: 720px;
+    min-height: 429px;
+    margin: 88px auto;
+  }
+}
+@media screen and (max-width:320px) {
+  .intro  {
+    max-width: 288px;
+    min-height: 754px;
+    padding: 0;
+    margin: 64px auto;
+  }
+}
