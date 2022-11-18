@@ -3,10 +3,8 @@
   grid-template-columns: repeat(1, auto);
   grid-template-rows: repeat(4, auto);
   max-width:76.88%;
-
-  align-items: center;
-  justify-items: center;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1024px) {
   .lead {
