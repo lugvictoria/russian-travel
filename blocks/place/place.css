@@ -22,6 +22,17 @@
     column-gap: 28px;
   }
 }
+@media screen and (max-width:640px) {
+  .place {
+    max-width: 320px;
+    min-height: 1042px;
+   grid-template-columns: repeat(1, auto);
+    grid-template-rows:  minmax(min-content, max-content) repeat(4, auto);
+    row-gap: 32px;
+    column-gap: 0;
+    margin: 0 auto 50px auto;
+  }
+}
 @media screen and (max-width:320px) {
   .place {
     max-width: 320px;

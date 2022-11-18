@@ -16,11 +16,15 @@
     margin: 88px auto 17px auto;
   }
 }
+@media screen and (max-width:640px) {
+  .places {
+    max-width: 320px;
+    margin: 64px auto 16px auto;
+  }
+}
 @media screen and (max-width:320px) {
   .places {
     max-width: 320px;
- /*   grid-template-columns: repeat(1, auto);
-    grid-template-rows: minmax(min-content, max-content) repeat(5, auto);*/
     margin: 64px auto 16px auto;
   }
 }

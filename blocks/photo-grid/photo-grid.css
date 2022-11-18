@@ -25,6 +25,15 @@
     grid-template-rows: repeat(6, auto);
   }
 }
+@media screen and (max-width:640px) {
+  .photo-grid {
+    max-width: 288px;
+    min-height: 2724px;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(12, auto);
+    row-gap: 12px;
+  }
+}
 @media screen and (max-width:320px) {
   .photo-grid {
     max-width: 288px;

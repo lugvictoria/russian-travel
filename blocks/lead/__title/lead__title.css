@@ -4,8 +4,7 @@
   align-items: center;
   font-family: 'Inter';
   text-align: center;
-  max-width:720px;
-  min-height: 200px;
+  max-width:56.25Vh;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -15,12 +14,27 @@
 } 
 @media screen and (max-width:1024px) {
   .lead__title {
+    max-width:70.3Vh;
     margin-top: 48px;
     margin-bottom: 32px;
   }
 }
 @media screen and (max-width:768px) {
   .lead__title {
+    max-width:93.75Vh;
+  }
+}
+@media screen and (max-width:640px) {
+  .lead__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width:0.9Vh;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 48px;
+    margin-bottom: 16px;
   }
 }
 @media screen and (max-width:320px) {
@@ -29,8 +43,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width:288px;
-    min-height: 88px;
+    max-width:0.9Vh;
     font-size: 40px;
     line-height: 44px;
     margin-top: 48px;
