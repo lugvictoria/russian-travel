@@ -8,14 +8,13 @@
 } 
 @media screen and (max-width:1024px) {
   .intro  {
-    max-width: 690px;
     margin-left: 48px;
   }
 }
 @media screen and (max-width:768px) {
   .intro  {
-    max-width: 720px;
-    margin: 88px auto;
+    min-width: clamp(288px, 93.7%, 720px);
+    margin: 88px 24px 0 24px
   }
 }
 @media screen and (max-width:320px) {
