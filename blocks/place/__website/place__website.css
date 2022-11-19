@@ -2,7 +2,7 @@
   display: grid;
   max-width:456px;
   grid-template-columns: repeat(1, auto);
-  grid-template-rows:  repeat(2, auto); 
+  grid-template-rows:  repeat(2, auto);
   align-self: end;
   justify-self: start;
   row-gap: 12px;
