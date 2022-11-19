@@ -1,12 +1,10 @@
 .place__link {
   max-width:456px;
-  min-height: 22px;
+  color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 2px;
-  color: #FFFFFF;
   text-decoration: underline;
 }
 .place__link:hover { 
@@ -26,7 +24,6 @@
 @media screen and (max-width:320px) {
   .place__link  {
   min-width: 288px;
-  min-height: 22px;
   padding: 0;
   }
 }

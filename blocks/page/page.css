@@ -1,19 +1,18 @@
 .page {
   max-width:1280px;
-  min-height: 6875px;
   background-color: #2A2C2F;
   color: #FFFFFF;
-  font-family:'Inter', Arial, Helvetica, sans-serif;
+  font-family:"Inter", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering:optimizeLegibility;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%; 
+  margin: 0;
 } 
 @media screen and (max-width:1024px) {
   .page {
   max-width: 1024px;
-  min-height: 6895px;
   }
 }
 @media screen and (max-width:768px) {
@@ -24,6 +23,5 @@
 @media screen and (max-width:320px) {
   .page {
   max-width: 320px;
-  min-height: 10023px;
   }
 }

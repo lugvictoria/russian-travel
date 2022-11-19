@@ -1,18 +1,4 @@
 .body {
-  max-width:1280px;
+  max-width:100%;
+  margin: 0;
 } 
-@media screen and (max-width:1024px) {
-  .body {
-    max-width:1024px;
-  }
-}
-@media screen and (max-width:768px) {
-  .body {
-    max-width:768px;
-  }
-} 
-@media screen and (max-width:320px) {
-  .body {
-    max-width:320px;
-  }
-}

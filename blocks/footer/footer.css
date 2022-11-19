@@ -1,16 +1,15 @@
 .footer {
   display: grid;
   max-width: 1184px;
-  min-height: 18px;
-  grid-template-rows: repeat(1, auto);
   grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(1, auto);
   margin: 0 auto;
   padding-bottom: 24px;
+  padding-top: 92px;
 } 
 @media screen and (max-width:1024px) {
   .footer {
     max-width:928px;
-    margin: 0 auto;
   }
 }
 @media screen and (max-width:768px) {
@@ -18,12 +17,11 @@
     max-width: 720px;
   }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width: 640px) {
   .footer  {
-    max-width: 186px;
+    max-width: 90%;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(2, auto);
-    row-gap: 16px;
-    margin-left:  16px;
+    padding-top: 66px;
   }
 }

@@ -8,7 +8,6 @@
   .place__image {
   max-width:440px;
   min-height: 440px;
-  grid-row-start: 2;
   grid-row-end: 2;
   }
 } 
@@ -17,22 +16,14 @@
   max-width: 340px;
   min-height: 340px;
   grid-row-start: 2;
-  grid-row-end: 2;
   }
 }
 @media screen and (max-width:640px) {
   .place__image {
   max-width: 320px;
   min-height: 320px;
-  grid-row-start: 3;
-  grid-row-end: 3;
-  }
-}
-@media screen and (max-width:320px) {
-  .place__image {
-  max-width: 320px;
-  min-height: 320px;
-  grid-row-start: 3;
-  grid-row-end: 3;
+ /* grid-row-start: 3;
+  grid-row-end: 3;*/
+  max-width: 100%;
   }
 }
