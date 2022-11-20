@@ -7,3 +7,13 @@
     align-self: center;
   }
 }
+@media screen and (max-width:768px) {
+  .header__links {
+    align-self: flex-end;
+  }
+}
+@media screen and (max-width:320px) {
+  .header__links {
+    align-self: center;
+  }
+}

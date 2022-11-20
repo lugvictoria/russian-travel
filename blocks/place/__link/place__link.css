@@ -16,7 +16,7 @@
   max-width:456px;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
   .place__link  {
   max-width: 352px;
   }
