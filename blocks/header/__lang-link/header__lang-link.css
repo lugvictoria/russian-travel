@@ -6,7 +6,8 @@
   line-height: 28px;
   text-decoration: none;
   text-decoration-line: underline;
-  margin-left: 16px;
+  margin-left: 17px;
+  padding-bottom:5px;
 }
 
 @media screen and (max-width:320px) {
