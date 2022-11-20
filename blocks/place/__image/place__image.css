@@ -10,7 +10,7 @@
   min-height: 440px;
   }
 } 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
   .place__image {
   max-width: 340px;
   min-height: 340px;
@@ -20,5 +20,7 @@
   .place__image {
     max-width: 320px;
     min-height: 320px;
+    position: relative;
+    justify-content: center;
   }
 }

@@ -23,8 +23,6 @@
 @media screen and (max-width: 640px) {
   .footer  {
     max-width: 90%;
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(2, auto);
     padding-top: 66px;
     margin: 0 0 0 16px;
   }
