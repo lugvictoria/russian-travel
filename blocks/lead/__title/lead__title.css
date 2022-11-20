@@ -18,14 +18,14 @@
     margin-bottom: 32px;
   }
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width:1023px) {
   .lead__title {
     max-width:720px;
   }
 }
-@media screen and (max-width:640px) {
+@media screen and (max-width:767px) {
   .lead__title {
-    max-width:90%;
+    max-width:288px;
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 16px;

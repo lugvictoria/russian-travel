@@ -12,15 +12,7 @@
   list-style: none;
   margin-bottom: 32px;
 }
-@media screen and (max-width: 1024px) {
-  .cover__title {
-  }
-}
-@media screen and (max-width:768px) {
-  .cover__title {
-  }
-}
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
   .cover__title {
   max-width: 288px;
   font-size: 32px;
