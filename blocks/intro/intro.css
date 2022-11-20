@@ -21,6 +21,6 @@
   .intro  {
     max-width: 288px;
     padding: 0;
-    margin: 64px auto;
+    margin: 64px 16px;
   }
 }
