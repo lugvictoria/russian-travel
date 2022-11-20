@@ -8,7 +8,6 @@
   .place__image {
   max-width:440px;
   min-height: 440px;
-  grid-row-end: 2;
   }
 } 
 @media screen and (max-width:768px) {
@@ -27,6 +26,6 @@
 @media screen and (max-width:320px) {
   .place__image {
     max-width: 320px;
-    min-height:320px;
+    min-height: 320px;
   }
 }
