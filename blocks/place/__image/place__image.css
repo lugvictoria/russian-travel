@@ -14,7 +14,6 @@
   .place__image {
   max-width: 340px;
   min-height: 340px;
-  grid-row-start: 2;
   }
 }
 @media screen and (max-width:640px) {

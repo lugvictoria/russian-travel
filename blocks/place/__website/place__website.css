@@ -11,6 +11,7 @@
 @media screen and (max-width:768px) {
   .place__website  {
     max-width: 352px;
+    row-gap: 12px;
   }
 }
 @media screen and (max-width:640px) {
