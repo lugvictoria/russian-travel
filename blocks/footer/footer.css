@@ -1,9 +1,8 @@
 .footer {
   display: grid;
-  max-width: 1184px;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(1, auto);
-  margin: 0 auto;
+  margin: 0 48px 0 48px;
   padding-bottom: 24px;
   padding-top: 92px;
 } 
@@ -17,6 +16,7 @@
     max-width: 720px;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(2, auto);
+    margin: 0 24px 0 24px;
     padding-top: 88px;
   }
 }
@@ -26,5 +26,6 @@
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(2, auto);
     padding-top: 66px;
+    margin: 0 0 0 16px;
   }
 }

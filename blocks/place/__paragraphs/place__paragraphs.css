@@ -12,7 +12,7 @@
   box-sizing: border-box;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:950px) {
   .place__paragraphs{
   max-width: 352px;
   row-gap: 26px;

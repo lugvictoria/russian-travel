@@ -4,6 +4,17 @@
   object-fit: cover;
   min-width: clamp(288px, 93.7%, 720px);
 }
+@media screen and (max-width:1024px) {
+  .lead__image {
+    min-width:90.625%;
+    margin:0;
+  }
+}
+@media screen and (max-width:768px) {
+  .lead__image {
+    min-width:100%;
+  }
+}
 @media screen and (max-width:320px) {
   .lead__image {
   margin:0;
