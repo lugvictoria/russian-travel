@@ -1,12 +1,10 @@
 .footer__links {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-template-rows: repeat(1, auto);
-  row-gap: 0;
-  column-gap: 18px;
+  display: flex;
+  gap: 18px;
 }
 @media screen and (max-width: 640px) {
   .footer__links {
+    display: grid;
     max-width: 90%;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(5, auto);
