@@ -15,15 +15,15 @@
   }
 }
 @media screen and (max-width:1000px) {
-  .place__paragraphs{
-  max-width: 352px;
-  row-gap: 25px;
-  margin: 0 auto;
+  .place__paragraphs {
+    max-width: 352px;
+    row-gap: 25px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width:768px) {
-  .place__paragraphs{
-    display:flex; 
+  .place__paragraphs {
+    display: flex;
     width: 100%;
     flex-direction: column;
     gap: 24px;
@@ -31,7 +31,7 @@
   }
 }
 @media screen and (max-width:320px) {
-  .place__paragraphs{
+  .place__paragraphs {
     max-width: 100%;
     gap: 24px;
   }

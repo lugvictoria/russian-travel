@@ -8,22 +8,22 @@
   text-decoration: underline;
   transition: 0.6s ease-in-out;
 }
-.place__link:hover { 
+.place__link:hover {
   opacity: .3;
 }
 @media screen and (max-width: 1024px) {
   .place__link {
-  max-width: 456px;
+    max-width: 456px;
   }
 }
 @media screen and (max-width: 1000px) {
   .place__link {
-  max-width: 352px;
+    max-width: 352px;
   }
 }
 @media screen and (max-width: 320px) {
   .place__link {
-  min-width: 288px;
-  padding: 0;
+    min-width: 288px;
+    padding: 0;
   }
 }
