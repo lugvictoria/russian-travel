@@ -6,10 +6,6 @@
   margin: 92px auto 92px 148px;
   padding: 0;
 } 
-.intro {
-  margin-left: auto;
-  margin-right: auto;
-}
 @media screen and (max-width: 1024px) {
   .intro {
     margin-left: 48px;
