@@ -1,17 +1,17 @@
 .lead__image {
-  max-width:100%;
+  max-width: 100%;
   margin: 0 auto;
   object-fit: cover;
   min-width: clamp(288px, 93.7%, 720px);
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
-    min-width:90.625%;
-    margin:0;
+    min-width: 90.625%;
+    margin: 0;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1023px) {
   .lead__image {
-    min-width:100%;
+    min-width: 100%;
   }
 }

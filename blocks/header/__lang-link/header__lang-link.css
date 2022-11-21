@@ -5,15 +5,14 @@
   font-size: 24px;
   line-height: 28px;
   text-decoration: none;
-  text-decoration-line: underline;
   margin-left: 17px;
-  padding-bottom:5px;
+  padding-bottom: 5px;
 }
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-    padding-bottom:0;
+    padding-bottom: 0;
     padding-top: 5px;
   }
 }

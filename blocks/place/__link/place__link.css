@@ -1,28 +1,28 @@
 .place__link {
-  max-width:456px;
+  max-width: 456px;
   color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-decoration: underline;
+  transition: 0.6s ease-in-out;
 }
 .place__link:hover { 
   opacity: .3;
-  transition: 0.6s ease-in-out;
 }
-@media screen and (max-width:1024px) {
-  .place__link  {
-  max-width:456px;
+@media screen and (max-width: 1024px) {
+  .place__link {
+  max-width: 456px;
   }
 }
-@media screen and (max-width:1000px) {
-  .place__link  {
+@media screen and (max-width: 1000px) {
+  .place__link {
   max-width: 352px;
   }
 }
-@media screen and (max-width:320px) {
-  .place__link  {
+@media screen and (max-width: 320px) {
+  .place__link {
   min-width: 288px;
   padding: 0;
   }

@@ -5,23 +5,23 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  font-family: "Inter Regular", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   margin-top: 40px;
   margin-bottom: 0;
 }
-@media screen and (max-width:1024px) {
-  .intro__text  {
+@media screen and (max-width: 1024px) {
+  .intro__text {
     max-width: 690px;
   }
 }
-@media screen and (max-width:768px) {
-  .intro__text  {
+@media screen and (max-width: 768px) {
+  .intro__text {
     max-width: 720px;
   }
 }
-@media screen and (max-width:767px) {
-  .intro__text  {
+@media screen and (max-width: 767px) {
+  .intro__text {
     max-width: 289px;
-    line-height:26.08px;
+    line-height: 26.08px;
   }
 }

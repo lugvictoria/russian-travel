@@ -1,31 +1,34 @@
 .intro {
   display: grid;
-  max-width:690px;
+  max-width: 690px;
   grid-template-columns: repeat(1, auto);
   grid-template-rows: repeat(6, auto);
   margin: 92px auto 92px 148px;
   padding: 0;
 } 
-@media screen and (max-width:1024px) {
-  .intro  {
+.intro {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
     margin-left: 48px;
   }
 }
-@media screen and (max-width:768px) {
-  .intro  {
+@media screen and (max-width: 768px) {
+  .intro {
     min-width: clamp(288px, 93.7%, 720px);
-    margin: 88px 24px 88px 24px;
+    margin: 88px 24px;
   }
 }
-@media screen and (max-width:767px) {
-  .intro  {
+@media screen and (max-width: 767px) {
+  .intro {
     justify-items: center; 
   }
 }
-@media screen and (max-width:320px) {
-  .intro  {
+@media screen and (max-width: 320px) {
+  .intro {
     max-width: 288px;
-    padding: 0;
     margin: 64px 10px;
   }
 }

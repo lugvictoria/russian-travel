@@ -6,8 +6,9 @@
   line-height: 18px;
   text-decoration: none;
   list-style: none;
+  transition: 0.6s ease-in-out;
 }
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
   .footer__link {
     display: flex;
     flex-direction: column;
@@ -17,5 +18,4 @@
 }
 .footer__link:hover {
   opacity: .3;
-  transition: 0.6s ease-in-out;
 }
