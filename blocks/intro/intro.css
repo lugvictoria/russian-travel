@@ -11,20 +11,32 @@
     margin-left: 48px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media screen and (max-width: 768px) {
   .intro {
     min-width: clamp(288px, 93.7%, 720px);
     margin: 88px 24px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .intro {
-    justify-items: center; 
+    max-width: 90%;
   }
 }
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 288px;
     margin: 64px 10px;
+    justify-items: center; 
+  }
+}
+@media screen and (max-width: 319px) {
+  .intro {
+    max-width: 90%; 
   }
 }

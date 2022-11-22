@@ -26,16 +26,9 @@
     min-height: 340px;
   }
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 767px) {
   .place__image {
-    max-width: 320px;
-    min-height: 320px;
-    margin: 0 auto;
-  }
-} 
-@media screen and (max-width: 600px) {
-  .place__image {
-    max-width: 100%;
+    max-width: 288px;
     margin: 0 auto;
   }
 } 
@@ -45,5 +38,10 @@
     min-height: 320px;
     position: relative;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 319px) {
+  .place__image {
+    max-width: 100%;
   }
 }

@@ -26,11 +26,16 @@
     row-gap: 16px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .photo-grid {
     max-width: 288px;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(12, auto);
     row-gap: 12px;
+  }
+}
+@media screen and (max-width: 319px) {
+  .photo-grid {
+    max-width: 100%;
   }
 }
