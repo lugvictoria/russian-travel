@@ -27,41 +27,4 @@
   .intro__text {
     max-width: 90%;
   }
-}/*
-.intro__text {
-  display: flex;
-  max-width: 690px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  margin-top: 40px;
-  margin-bottom: 0;
 }
-@media screen and (max-width: 1024px) {
-  .intro__text {
-    max-width: 690px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .intro__text {
-    max-width: 720px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .intro__text {
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .intro__text {
-    max-width: 289px;
-    line-height: 26.08px;
-  }
-}
-@media screen and (max-width: 319px) {
-  .intro__text {
-    max-width: 90%;
-  }
-}*/
