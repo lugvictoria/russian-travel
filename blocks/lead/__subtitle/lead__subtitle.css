@@ -1,13 +1,11 @@
 .lead__subtitle {
   max-width: 65.04%;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
   margin: 0 auto 64px auto;
 } 
 @media screen and (max-width: 1024px) {

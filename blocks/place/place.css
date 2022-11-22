@@ -15,14 +15,6 @@
     row-gap: 44px;
   }
 } 
-@media screen and (max-width: 1024px) {
-  .place {
-    column-gap: 26px;
-    grid-template-columns: repeat(2, minmax(340px, 1fr));
-    margin-bottom: 44px;
-    row-gap: 44px;
-  }
-}
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: repeat(2, auto);
@@ -34,7 +26,6 @@
 @media screen and (max-width: 600px) {
   .place {
     display: flex;
-    max-width: 100%;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
@@ -46,6 +37,6 @@
 }
 @media screen and (max-width: 320px) {
   .place {
-    margin-bottom: 46px;
+    margin-bottom: 48px;
   }
 }

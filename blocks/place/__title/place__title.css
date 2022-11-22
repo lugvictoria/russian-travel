@@ -18,11 +18,6 @@
     line-height: 109%;
   }
 }
-@media screen and (max-width: 768px) {
-  .place__title {
-    max-width: 330px;
-  }
-} 
 @media screen and (max-width: 600px) {
   .place__title {
     max-width: 100%;

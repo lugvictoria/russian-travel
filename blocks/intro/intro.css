@@ -31,12 +31,13 @@
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 288px;
-    margin: 64px 10px;
-    justify-items: center; 
+    margin: 64px 16px;
   }
 }
 @media screen and (max-width: 319px) {
   .intro {
     max-width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
   }
 }
